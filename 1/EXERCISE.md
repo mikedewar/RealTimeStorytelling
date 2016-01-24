@@ -1,5 +1,5 @@
-# Exercise 1  - 1/27/2016
-!!!!!!due in two weeks
+# Exercise 1 - 1/27/2016
+## due on 2/10/2016
 
 The aim of this exercise is to encourage you to explore and consume data you can find in the world, with a focus on streaming data. This exercise will make sure you can build a minimal pipeline from a data source to a webpage where that data can be seen by a reader. Subsequent exercises will flesh out this pipeline. 
 
