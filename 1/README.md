@@ -15,7 +15,9 @@ roughly, our schedule looks like
 * quickly review pipes, and meet `jq`
 * make a websocket server using `websocketd`
 * log the stream in the browser's console log
-BREAK
+
+**BREAK**
+
 * curl the citibike API
 * do the same with python
 * detect changes to citibike stations, serve via websocket
