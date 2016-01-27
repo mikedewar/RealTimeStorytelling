@@ -16,7 +16,7 @@ The exercise is split into three parts:
 
 ## Grading
 
-1. Part 1 of the exercise will be graded on the clarity of the description of the stream. We will be looking for evidence a clear understanding of how each message relates to an event in the world, and 
+1. Part 1 of the exercise will be graded on the clarity of the description of the stream. We will be looking for evidence a clear understanding of how each message relates to an event in the world.
 2. Part 2 will be graded primarily using the code comments in the consumer. We are looking for a clear description of how the code works. We will also attempt to run the code briefly to make sure it writes messages to `stdout`. 
 3. Part 3 will be graded on the quality of presentation of the generated page. 
 
