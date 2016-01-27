@@ -28,6 +28,8 @@ In case you are lacking in inspiration for data sources, try exploring:
 * Environmental data [http://developer.epa.gov/category/data/](http://developer.epa.gov/category/data/)
 * Online chat rooms [https://api.slack.com/rtm](https://api.slack.com/rtm)
 
+Also check out Jeremy Singer-Vine's email list http://tinyletter.com/data-is-plural.
+
 ## Resouces
 
 * The folder containing this file also contains:
