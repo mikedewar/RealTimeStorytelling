@@ -10,26 +10,7 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>lightning strikes!</h2>
-        <h3>(lat, lon)</h4>
-        <ul id="list">
-        </ul>
-    </div>
-    <script>
-        var ws = new WebSocket("ws://ws3.lightningmaps.org/")
-         ws.onmessage = function(e)
-        {
-            var obj = JSON.parse(e.data)
-            obj.strokes.map(function(stroke)
-            {
-                d3.select('#list')
-                    .insert('li', ":first-child")
-                    .text("(" + stroke.lat + ", " +
-                        stroke.lon + ")")
-            })
-        }
-    </script>
+    <ul></ul>
 </body>
 
 </html>

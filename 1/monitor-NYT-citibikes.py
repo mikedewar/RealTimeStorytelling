@@ -1,6 +1,8 @@
+#!/usr/bin/env python
 import requests
 import json
 import time
+from sys import stdout
 
 # this script polls the citibike API, looking for changes in the number of 
 # citibikes at each station
@@ -20,8 +22,9 @@ while True:
 
         # if the number of bikes have changed, emit a message
         if delta != 0:
-            print '{"station":%s,"bikeDelta":%s}'%(m["stationName"], delta)
+            print '{"station":"%s","bikeDelta":"%s"}'%(m["stationName"], delta)
+            stdout.flush()
 
         # update the store with the new number of available bikes for that station
         availableBikes[m["stationName"]] = m["availableBikes"]
-    time.sleep(10)
+    time.sleep(2)

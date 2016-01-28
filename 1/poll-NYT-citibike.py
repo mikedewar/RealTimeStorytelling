@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import requests
 import json
 import time
@@ -9,4 +10,4 @@ while True:
     for m in r.json()["stationBeanList"]:
         if m["stationName"] == "W 41 St & 8 Ave":
             print json.dumps(m, indent=1)
-    time.sleep(10)
+    time.sleep(2)
