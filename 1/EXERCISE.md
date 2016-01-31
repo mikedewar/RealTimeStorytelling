@@ -16,7 +16,7 @@ The exercise is split into three parts:
 
 ## Grading
 
-1. Part 1 of the exercise will be graded on the clarity of the description of the stream. We will be looking for evidence a clear understanding of how each message relates to an event in the world, and 
+1. Part 1 of the exercise will be graded on the clarity of the description of the stream. We will be looking for evidence a clear understanding of how each message relates to an event in the world.
 2. Part 2 will be graded primarily using the code comments in the consumer. We are looking for a clear description of how the code works. We will also attempt to run the code briefly to make sure it writes messages to `stdout`. 
 3. Part 3 will be graded on the quality of presentation of the generated page. 
 
@@ -27,6 +27,8 @@ In case you are lacking in inspiration for data sources, try exploring:
 * City data sets e.g.[http://datamine.mta.info/](http://datamine.mta.info/)
 * Environmental data [http://developer.epa.gov/category/data/](http://developer.epa.gov/category/data/)
 * Online chat rooms [https://api.slack.com/rtm](https://api.slack.com/rtm)
+
+Also check out Jeremy Singer-Vine's email list http://tinyletter.com/data-is-plural.
 
 ## Resouces
 
