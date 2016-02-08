@@ -1,1 +1,2 @@
-1. consuming bitly clicks - https://www.dropbox.com/s/mi618jhjqh9bklf/screencast-consume-1usagov.mov?dl=0
+1. consuming bitly clicks - https://vimeo.com/154265343
+2. polling citibike api - https://youtu.be/4BBzAkjmk70
