@@ -10,5 +10,4 @@ while 1:
     delta = d["delta"]
     time = d["t"]
     conn.setex(time, delta, 120)
-
-    
+    print json.dumps({"time":time, "delta":delta})
