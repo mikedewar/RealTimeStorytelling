@@ -18,3 +18,9 @@ BREAK
 * meet `redis`
 * implement a time-diff stream
 * implement a moving average
+
+# Links
+
+* [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754](The introduction to Reactive programming you've been looking for)
+* [http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/](Visual Programming Languages)
+* [https://en.wikipedia.org/wiki/Dataflow_programming](Dataflow Programming)
