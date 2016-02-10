@@ -6,10 +6,15 @@ import sys
 conn = redis.Redis()
 
 while 1:
+
+    pipe = conn.pipeline()
+
     keys = conn.keys()
 
+    values = conn.mget(keys)
+
     try:
-        deltas = [float(conn.get(k)) for k in keys]
+        deltas = [float(v) for v in values]
     except TypeError:
         print keys
         continue
