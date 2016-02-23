@@ -21,6 +21,6 @@ BREAK
 
 # Links
 
-* [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754](The introduction to Reactive programming you've been looking for)
-* [http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/](Visual Programming Languages)
-* [https://en.wikipedia.org/wiki/Dataflow_programming](Dataflow Programming)
+* [The introduction to Reactive programming you've been looking for](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [Visual Programming Languages](http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/)
+* [Dataflow Programming](https://en.wikipedia.org/wiki/Dataflow_programming)
