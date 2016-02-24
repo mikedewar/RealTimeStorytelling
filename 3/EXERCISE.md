@@ -6,10 +6,10 @@ The aim of this exercise is to flesh out your beat robot.
 
 1. Build a system to track a distrbution or set of distributions that capture something you find interesting about a stream of data. (40%)
 2. Build an API that can return:
- * * the rate of the stream
- * * the distributions you assembled in the first part of this exercise
- * * the entropy of the distributions
- * * the probability of a new message given the stored distributions (40%)
+ * the rate of the stream
+ * the distributions you assembled in the first part of this exercise
+ * the entropy of the distributions
+ * the probability of a new message given the stored distributions (40%)
 3. Extend the alerting system you built in Exercise 2 to alert on changes in entropy or unlikey new messages. (10%)
 4. Build a webpage that displays the current distribution(s) stored in your system by querying the API you build in the second part of this exercise. (10%)
 
