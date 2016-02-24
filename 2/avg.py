@@ -7,9 +7,10 @@ conn = redis.Redis()
 
 while 1:
 
-    pipe = conn.pipeline()
-
     keys = conn.keys()
+
+    if len(keys) == 0 :
+        continue
 
     values = conn.mget(keys)
 
