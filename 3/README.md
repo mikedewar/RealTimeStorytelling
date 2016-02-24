@@ -12,4 +12,4 @@ BREAK
 
 * remember our stream processing patterns
 * discuss strategies for tracking distributions over time
-* implement a leaky counter in python and redis
+* implement a non-stationary distribution in python and redis
