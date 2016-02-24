@@ -4,7 +4,7 @@ import collections
 import json
 import numpy as np
 
-app = flask.Flask(__name__)
+app = flsk ask.Flask(__name__)
 conn = redis.Redis()
 
 def buildHistogram():
@@ -23,6 +23,14 @@ def histogram():
 def entropy():
     h = buildHistogram()
     return -sum([p*np.log(p) for p in h.values()]) 
+
+@app.route("/probability")
+def probability():
+    city = request.args.get('city', '')
+    ref = request.args.get('referrer', '')
+    d = conn.hget(city,ref)
+    return d
+
     
 
 
