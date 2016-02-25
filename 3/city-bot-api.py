@@ -4,7 +4,7 @@ import collections
 import json
 import numpy as np
 
-app = flsk ask.Flask(__name__)
+app = flask.Flask(__name__)
 conn = redis.Redis()
 
 def buildHistogram():
