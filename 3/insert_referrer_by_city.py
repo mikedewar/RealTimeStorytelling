@@ -34,6 +34,6 @@ while 1:
         o = urlparse.urlparse(referrer)
         netloc = o.netloc
 
-    conn.hincrby(city, netloc)
+    conn.hincrby(city, netloc, 1)
     print json.dumps({"cy": city, "r": netloc})
     sys.stdout.flush()
