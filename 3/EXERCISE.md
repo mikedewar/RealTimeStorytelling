@@ -1,4 +1,4 @@
-# Exercise 2 - 2/24/16
+# Exercise 3 - 3/9/16
 
 The aim of this exercise is to flesh out your beat robot. 
 
