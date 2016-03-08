@@ -28,8 +28,13 @@ def entropy():
 def probability():
     city = request.args.get('city', '')
     ref = request.args.get('referrer', '')
-    d = conn.hget(city,ref)
-    return d
+    # get the distribution for the city
+    d = conn.hgetall(city)
+    # get the count for the referrer
+    c = d[ref]
+    # get the normalising constant
+    z = sum([float(v) for v in d.values])
+    return float(d)/z
 
     
 
